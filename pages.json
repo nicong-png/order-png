@@ -1,0 +1,98 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/index",
+			  "style":{
+				  "navigationStyle":"custom"
+			  }
+		},{
+			"path": "pages/order/index",
+			 "style":{
+				 "navigationStyle":"custom"
+			 }
+		},{
+			"path": "pages/order/orderDetail",
+			"style":{
+				"navigationBarTitleText": "订单详情"
+			}
+		},{
+			"path": "pages/order/costDetail",
+			 "style":{
+			 	"navigationBarTitleText": "费用详情"
+			 }
+		},{
+			"path": "pages/order/address",
+			"style":{
+				"navigationBarTitleText": "地址管理"
+			}
+		},{
+			"path": "pages/order/hospital",
+			 "style":{
+			 	"navigationBarTitleText": "选择医院"
+			 }
+		},{
+			"path": "pages/order/addOrder",
+			 "style":{
+				 "navigationBarTitleText": "新建订单"
+			 }
+		},{
+			"path": "pages/order/area",
+			"style":{
+				"navigationBarTitleText": "选择地区"
+			}
+		},{
+			"path": "pages/order/logistics",
+			"style":{
+				"navigationBarTitleText": "物流信息"
+			}
+		},{
+			"path": "pages/order/renewalss",
+			"style":{
+				"navigationBarTitleText": "订单续租"
+			}
+		},{
+			"path": "pages/order/equipment",
+			"style":{
+				"navigationBarTitleText": "设备选择"
+			}
+		},{
+			"path": "pages/tabbar/my/Index",
+			 "style":{"navigationBarTitleText": "我的"
+			 }
+		},{
+            "path" : "components/uniPop/uniPop",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+       
+    ],
+	"globalStyle": {
+		// "navigationStyle":"custom",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "妇幼健康监护管理服务平台",
+		"navigationBarBackgroundColor": "#727cf5",
+		"backgroundColor": "#727cf5"
+	},
+	"tabBar": {
+		"selectedColor": "#727cf5",
+		"borderStyle": "black",
+		"backgroundColor": "#fff"
+		// "list": [{
+		// 		"pagePath": "pages/order/index",
+		// 		"iconPath": "static/images/icon_gzt@3x.png",
+		// 		"selectedIconPath": "static/images/icon_gzt_on@3x.png",
+		// 		"text": "订单管理"
+		// 	},
+		// 	{
+		// 		"pagePath": "pages/tabbar/my/Index",
+		// 		"iconPath": "static/images/icon_me@3x.png",
+		// 		"selectedIconPath": "static/images/icon_me_on@3x.png",
+		// 		"text": "我的"
+		// 	}
+		// ]
+	}
+}
